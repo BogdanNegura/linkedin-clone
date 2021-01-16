@@ -4,12 +4,12 @@ import "./sidebar.style.css"
 
 const Sidebar = () => {
 
-    const recentItem = (topic) => {
+    const recentItem = (topic) => (
         <div className="sidebar__recentItem">
             <span className="sidebar__hash">#</span>
             <p>{topic}</p>
         </div>
-    }
+    )
 
     return (
         <div className="sidebar">
